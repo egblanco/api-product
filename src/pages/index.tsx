@@ -5,6 +5,16 @@ import axios from "axios";
 const inter = Inter({ subsets: ["latin"] });
 
 function Home({ data }: { data: any }) {
+  //const getJson = async () => {
+  //  const response = await fetch(
+  //    "https://ornate-scone-f87809.netlify.app/api/products.json"
+  //  );
+  //  const jsonData = await response.json();
+  //  console.log(jsonData);
+  //};
+
+  //getJson();
+
   return (
     <main
       className={`flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}
